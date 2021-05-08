@@ -1,0 +1,10 @@
+[
+    {
+        "model": "gameraterapi.playerGame",
+        "pk": 1,
+        "fields": {
+            "Game": 1,
+            "Player": 1
+        }
+    }
+]

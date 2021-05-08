@@ -1,5 +1,8 @@
 from django.db import models
 
 
-class Category(models.Model):
-    name = models.CharField(max_length=50)
+class Review(models.Model):
+    content = models.TextField()
+    rating = models.IntegerField()
+    game = models.ForeignKey("Game")
+    player = models.OneToOneField("User")
