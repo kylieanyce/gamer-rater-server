@@ -1,12 +1,23 @@
 [
     {
-        "model": "gameraterapi.review",
+        "model": "gameraterapi.category",
         "pk": 1,
         "fields": {
-            "Content": "This is my all time favorite game ever!",
-            "Rating": 5,
-            "Game": 1,
-            "Player": 1
+            "game_type": "Board Game"
+        }
+    },
+    {
+        "model": "gameraterapi.category",
+        "pk": 1,
+        "fields": {
+            "game_type": "Strategy Game"
+        }
+    },
+    {
+        "model": "gameraterapi.category",
+        "pk": 1,
+        "fields": {
+            "game_type": "Card Game"
         }
     }
 ]

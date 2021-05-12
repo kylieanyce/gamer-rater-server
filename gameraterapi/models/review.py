@@ -4,5 +4,5 @@ from django.db import models
 class Review(models.Model):
     content = models.TextField()
     rating = models.IntegerField()
-    game = models.ForeignKey("Game")
-    player = models.OneToOneField("User")
+    game = models.ForeignKey("Game", on_delete=models.CASCADE)
+    player = models.ForeignKey("User", on_delete=models.CASCADE)
