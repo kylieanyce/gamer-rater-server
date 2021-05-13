@@ -7,7 +7,7 @@ class Game(models.Model):
     designer = models.CharField(max_length=50)
     year_released = models.IntegerField()
     num_of_players = models.IntegerField()
-    game_time_length = models.IntegerField()
-    age_recommendation = models.IntegerField()
+    game_time_length = models.CharField(max_length=50)
+    age_recommendation = models.CharField(max_length=50)
     categories = models.ManyToManyField(
         "Category", through="GameCategory", related_name="games")

@@ -14,7 +14,7 @@
         "pk": 2,
         "fields": {
             "Content": "omg the worst, it goes so slowly.",
-            "Rating": 1,
+            "Rating": 3,
             "Game": 2,
             "Player": 1
         }
