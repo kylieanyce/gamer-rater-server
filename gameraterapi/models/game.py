@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class GameModel(models.Model):
+class Game(models.Model):
     title = models.CharField(max_length=50)
     description = models.TextField()
     designer = models.CharField(max_length=50)
