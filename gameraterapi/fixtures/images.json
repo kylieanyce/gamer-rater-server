@@ -3,7 +3,7 @@
         "model": "gameraterapi.image",
         "pk": 1,
         "fields": {
-            "image": ,
+            "image": "gameraterapi/media/dominion.jpg",
             "player": 1,
             "Game": 1
         }
@@ -12,7 +12,7 @@
         "model": "gameraterapi.image",
         "pk": 2,
         "fields": {
-            "image": ,
+            "image": "gameraterapi/media/cribbage.png",
             "player": 1,
             "Game": 2
         }
@@ -21,7 +21,7 @@
         "model": "gameraterapi.image",
         "pk": 3,
         "fields": {
-            "image": ,
+            "image": "gameraterapi/media/carcassonne.jpg",
             "player": 1,
             "Game": 3
         }
