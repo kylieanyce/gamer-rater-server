@@ -3,30 +3,30 @@
         "model": "gameraterapi.review",
         "pk": 1,
         "fields": {
-            "Content": "This is my all time favorite game ever!",
-            "Rating": 5,
-            "Game": 1,
-            "Player": 1
+            "content": "This is my all time favorite game ever!",
+            "rating": 5,
+            "game": 1,
+            "player": 1
         }
     },
     {
         "model": "gameraterapi.review",
         "pk": 2,
         "fields": {
-            "Content": "omg the worst, it goes so slowly.",
-            "Rating": 3,
-            "Game": 2,
-            "Player": 1
+            "content": "omg the worst, it goes so slowly.",
+            "rating": 3,
+            "game": 2,
+            "player": 1
         }
     },
     {
         "model": "gameraterapi.review",
         "pk": 3,
         "fields": {
-            "Content": "Definitely need a beer to play this one!",
-            "Rating": 3,
-            "Game": 3,
-            "Player": 1
+            "content": "Definitely need a beer to play this one!",
+            "rating": 3,
+            "game": 3,
+            "player": 1
         }
     }
 ]
