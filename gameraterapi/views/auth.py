@@ -4,7 +4,6 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 from django.views.decorators.csrf import csrf_exempt
-from levelupapi.models import Gamer
 
 
 @csrf_exempt
@@ -57,15 +56,6 @@ def register_user(request):
         first_name=req_body['first_name'],
         last_name=req_body['last_name']
     )
-
-    # Now save the extra info in the levelupapi_gamer table
-    gamer = Gamer.objects.create(
-        bio=req_body['bio'],
-        user=new_user
-    )
-
-    # Commit the user to the database by saving it
-    gamer.save()
 
     # Use the REST Framework's token generator on the new user account
     token = Token.objects.create(user=new_user)

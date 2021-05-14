@@ -1,0 +1,41 @@
+[
+    {
+        "model": "gameraterapi.game",
+        "pk": 1,
+        "fields": {
+            "title": "Dominion",
+            "description": "Build your empire to win the game!",
+            "designer": "Donald X. Vaccarino",
+            "year_released": 2008,
+            "num_of_players": 4,
+            "game_time_length": "1 hour",
+            "age_recommendation": "10 and up"
+        }
+    },
+    {
+        "model": "gameraterapi.game",
+        "pk": 2,
+        "fields": {
+            "title": "Cribbage",
+            "description": "Takes a second to learn but very easy once you get it.",
+            "designer": "Unknown",
+            "year_released": null,
+            "num_of_players": 2,
+            "game_time_length": "30 minutes",
+            "age_recommendation": "10 and up"
+        }
+    },
+    {
+        "model": "gameraterapi.game",
+        "pk": 3,
+        "fields": {
+            "title": "Carcassonne",
+            "description": "Build the board as you play the game.",
+            "designer": "Klaus-Jürgen Wrede",
+            "year_released": 2000,
+            "num_of_players": 5,
+            "game_time_length": "1 hour",
+            "age_recommendation": "8 and up"
+        }
+    }
+]

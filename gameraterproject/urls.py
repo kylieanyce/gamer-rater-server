@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include
 from django.urls import path
-from levelupapi.views import register_user, login_user
+from gameraterapi.views import register_user, login_user
 
 urlpatterns = [
     path('register', register_user),

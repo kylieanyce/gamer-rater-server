@@ -1,0 +1,26 @@
+[
+    {
+        "model": "gameraterapi.playerGame",
+        "pk": 1,
+        "fields": {
+            "player": 1,
+            "game": 1
+        }
+    },
+    {
+        "model": "gameraterapi.playerGame",
+        "pk": 2,
+        "fields": {
+            "player": 1,
+            "game": 2
+        }
+    },
+    {
+        "model": "gameraterapi.playerGame",
+        "pk": 3,
+        "fields": {
+            "player": 1,
+            "game": 3
+        }
+    }
+]

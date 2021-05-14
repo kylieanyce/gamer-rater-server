@@ -1,0 +1,32 @@
+[
+    {
+        "model": "gameraterapi.review",
+        "pk": 1,
+        "fields": {
+            "Content": "This is my all time favorite game ever!",
+            "Rating": 5,
+            "Game": 1,
+            "Player": 1
+        }
+    },
+    {
+        "model": "gameraterapi.review",
+        "pk": 2,
+        "fields": {
+            "Content": "omg the worst, it goes so slowly.",
+            "Rating": 3,
+            "Game": 2,
+            "Player": 1
+        }
+    },
+    {
+        "model": "gameraterapi.review",
+        "pk": 3,
+        "fields": {
+            "Content": "Definitely need a beer to play this one!",
+            "Rating": 3,
+            "Game": 3,
+            "Player": 1
+        }
+    }
+]
