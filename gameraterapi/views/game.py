@@ -33,6 +33,7 @@ class GameView(ViewSet):
 
         try:
             game.save()
+            game.categories.set(request.data['categories'])
             serializer = GameSerializer(game, context={'request': request})
             return Response(serializer.data)
         except ValidationError as ex:
